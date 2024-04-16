@@ -1,0 +1,61 @@
+body{
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#pesquisa{
+    background-color:#f3d766;
+    
+}
+#pesquisa input{
+    padding-right: 0.5%;
+    margin: 0.50% 0.5% 0.5% 85%;
+    border: none;
+    background: #eee3cf url(imagens/lupa.png) no-repeat center right;
+}
+#logo{
+    padding-top: 5%;
+    height: 30%;
+    background: #94d2f8 url(imagens/logo.png) no-repeat center left;
+    text-indent: -999999px;
+}
+nav li{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-right: 4%;
+    float: left;
+    background-color: #94d2f8;
+}
+nav ul{
+    list-style: none;
+    margin-top: -7.5%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    border: #94d2f8 solid 1px
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.728);
+}
+#titulo ul{
+    list-style-type: disc;
+}
+#titulo a{
+    color: blue;
+    font-size: 300%;
+}
+#titulo li{
+    width: 45%;
+    border-bottom: 1px solid blue;
+}
+li, p{
+    color: blue;
+    font-weight: bolder;
+}
+#texto{
+    margin:0% 5% ;
+}
