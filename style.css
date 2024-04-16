@@ -58,6 +58,7 @@ aside{
     flex-direction: column;
 }
 aside p{
+    font-weight: bolder;
     font-size: 60px;
     margin: 5% 2.5% 0% 45%;
 }
@@ -84,4 +85,53 @@ aside #p2{
 
     color: white;
     border-bottom:2px solid white ;
+}
+#conteudo-esquerda{
+    float:left;
+    width: 60%;
+}
+#conteudo-esquerda div{
+    border-radius: 20px;
+}
+#missao p{
+    margin: 10% 5% 8% 10% ;
+    line-height: 200%;
+}
+#missao{
+    float: left;
+    background-color: #f3d766;
+    margin: 0% 1% 1% 1%;
+    width: 45%;
+    height: 100%;
+}
+#visao p, #valores p{
+    line-height: 150%;
+}
+#visao,#valores{
+    width: 45%;
+    margin-right: 7%;
+}
+#visao{
+    background-color: red;
+    height: 50%;
+    float: right;
+}
+#valores{
+    background-color: #78abca;
+    height: 50%;
+    float: right;
+    margin-top: 3%;
+}
+#conteudo-esquerda h1{
+    text-align: center;
+}
+#conteudo-esquerda p{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: large;
+}
+#conteudo-direita img{
+    width: 35%;
+    margin-top: -2.5%;
 }
