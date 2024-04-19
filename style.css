@@ -135,3 +135,45 @@ aside #p2{
     width: 35%;
     margin-top: -2.5%;
 }
+#cursos{
+    width: 60%;
+    margin: 0% 5% 5% 5%;
+}
+#cursos h3{
+    width: 50%;
+    padding: 2%;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+#links{
+    padding-top: 1%;
+    padding-bottom:2%;
+    background-color: rgb(212, 210, 210);
+}
+#links a{
+    font-size: large;
+    color:blue;
+}
+#links li{
+    margin: 4%;
+    border-bottom: 1px solid blue;
+}
+#encaminhamento{
+    float: right;
+    background-color: rgb(173, 2, 2);
+    margin:1%;
+}
+#encaminhamento h3{
+    margin: 1%;
+    width: 80%;
+    padding: 2%;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+#encaminhamento p{
+    text-align: center;
+    color: white;
+    margin: 5% 1% 1% 1%;
+}
